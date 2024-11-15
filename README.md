@@ -1,7 +1,17 @@
 # Dynamic Programming
 
-* DP is an algorithmic technique used in computer science and mathematics to solve complex problems by breaking them down into smaller overlapping subproblems.
-* The core idea behind DP is to store solutions to subproblems so that each is solved only once.
-* To solve DP problems, we first write a recursive solution in a way that there are overlapping subproblems in the recursion tree (the recursive function is called with same paramaters multiple times)
-* To make sure that a recursive value is computed only once (to improve time taken by algorithm), we store results of the recursive calls.
-* There are two ways to store the results, one is top down (or memoization) and other is bottom up (or tabulation).
+*Dynamic programming* is an effective technique for solving optimization problems that can be broken down into nested sub-problems. 
+
+In pattern recognition, dynamic programming is used for _temporal registration_, which consists in aligning two temporal signals by finding the best temporal offset between them.
+
+**Temporal Registration**
+
+_Temporal registration_ aims to find the best temporal offset between two temporal signals by minimizing a cost function, which measures the difference between the two signals.
+
+**Registration Path**
+
+_Registration path_ represent the different possible combinations of time shifts between the two signals. The aim is to find the optimal shift path that minimizes the cost function.
+
+# Dynamic Programming Algorithm
+
+![1731681887682](image/README/1731681887682.png)
